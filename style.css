@@ -1,0 +1,138 @@
+.maindiv{
+    background-color: rgb(250, 248, 248);
+    height: 650px;
+    width: 640px;
+    margin-top: 0px;
+    margin-left: 25%;
+
+}
+
+.img {
+    margin-left: 0px;
+    margin-top: 0px;
+
+}
+
+.hamburger {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(250, 248, 248);
+    height: 50px;
+}
+
+.knot {
+    margin-top: 12px;
+    margin-left: -100px;
+}
+
+.dots {
+    position: relative;
+    z-index: 1;
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin-top: 13px;
+    margin-right: 20px;
+}
+
+.dots input {
+    position: absolute;
+    width:40px;
+    cursor: pointer;
+    opacity: 0; 
+    z-index: 2; /* in order to place the checkbox over the hamburguer */
+    -webkit-touch-callout: none;
+}
+
+.dots span {
+    display: block; /* to ensure that each span element occupies its own line. */
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px; /* create some spacing between the span elements. */
+    position: relative; /* allow for positioning changes in relation to the parent div.*/
+    background: #0c0000;
+    border-radius: 3px;
+    z-index: 1; /* ensure that the span element is under the checkbox */
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+    transform-origin 4px 0px;
+}
+
+
+.arrow {
+    width: 30px;
+    margin-left: 40px;
+    margin-top: 12px;
+}
+
+.fr { 
+    font-size: 40px;
+    margin-top: 1px;
+    margin-left: -70px;
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: rgb(64, 144, 158);
+}
+
+h2 {
+    color: rgb(95, 109, 95) ;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p {
+    color: rgb(95, 119, 156);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.motormain {
+    border-radius: 1000px;
+    width: 30px;
+    margin-right: 8px;
+    margin-left: -30px;
+}
+
+.commute {
+    color: rgb(13, 13, 17);
+    margin-left: 0px;
+    margin-top: 8px;
+}
+
+.motorrow {
+    margin-top: 5px;
+    margin-left: 50px;
+    display: flex;
+    
+}
+
+.header {
+    margin-left: 20px;
+}
+
+.heart {
+    width: 15px;
+    height: 22px;
+    margin-left: 200px;
+    margin-top: 6px;
+}
+
+.heartdiv {
+    display: flex;
+}
+
+.month {
+    display: flex;
+    margin-top: 30px;
+    margin-left: -90px;
+}
+
+.rent {
+    margin-right: 20px;
+}
+
+.bed {
+    margin-right: 20px;
+}
